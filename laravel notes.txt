@@ -1,0 +1,50 @@
+laravel notes
+
+composer create-project laravel/laravel example-app
+composer install --ignore-platform-reqs
+
+Controller Naming Convention. (Singular + Controller in the end)
+
+View blade naming convention. ()
+
+MODELNAME::ALL(); == Posts::all();
+
+all() is static method. as is.
+get() can be modified and add eloquent commands (where, take, conditionals('column_name', 'operator (>, <, =)', value(5 or any int or character/string)) )
+PS. get() is always at the end of query.
+
+
+where('column_name', 'value')->get(); ---- conditionals
+take(value)->get();                   ---- limit (for pagination and shits)
+
+where('column_name', 'operator', value)->get(); --- with operator.
+count();                                        --- counts the number; when using count, don't have to use get(); since we wont retrieve any data from database. we just count it.
+
+use Illuminate\Support\Facades\DB;
+
+Singlar model name == Plural table name 
+
+
+table -
+
+<table class="table table-bordered w-50 float-start table-hover">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Age</td>
+                <td>Salary</td>
+            </tr>
+            
+        </thead>
+        <tbody class="">
+            <tr>
+                <td>{{ $emp->emp_name }}</td>
+                <td>{{ $emp->emp_age }}</td>
+                <td>{{ $emp->emp_salary }}</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+    width: max-content;
