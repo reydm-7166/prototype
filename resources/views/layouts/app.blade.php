@@ -48,8 +48,12 @@
             color: white;
             border-color: #835215;
         }
-        a {
+        a, a:hover {
             text-decoration: none;
+            color: white;
+        }
+        div label {
+            letter-spacing: 2px;
         }
     </style>
 </head>
