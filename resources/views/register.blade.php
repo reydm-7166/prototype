@@ -39,7 +39,7 @@
                   </div>
 
                   <div class="mb-3">
-                    <input type="submit" class="form-control shadow w-50 m-auto p-3 fs-4 bg-dark text-white" value="Sign up">
+                    <input type="submit" class="form-control shadow w-50 m-auto pb-3 pt-2 fs-4 bg-dark text-white" value="Sign up">
                   </div>
 
             </form>

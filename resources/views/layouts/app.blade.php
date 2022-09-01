@@ -17,7 +17,7 @@
         }
         * {
             box-sizing: border-box;
-            /* border: black 1px dotted; */
+            border: black 1px dotted;
         }
         body {
             overflow: hidden;
@@ -55,6 +55,21 @@
         div label {
             letter-spacing: 2px;
         }
+        #img_div, #details {
+            display: inline-block;
+            width: 40%;
+            vertical-align: top;
+        }
+        #img_div {
+            border-top-right-radius: 2rem;
+            margin-right: -2rem;
+            border-bottom-right-radius: 2rem;
+            overflow: hidden;
+            background: url('/images/borger_icon.png');
+            background-position: center;
+            z-index: 1;
+        }
+
     </style>
 </head>
 @yield('body_content')

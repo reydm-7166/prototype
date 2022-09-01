@@ -6,6 +6,6 @@ Generator
 
 @section('body_content')
 
-gene
+
 
 @endsection

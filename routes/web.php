@@ -24,3 +24,7 @@ Route::get('/register', function () {
 Route::get('/generator', function () {
     return view('generator');
 });
+
+Route::get('/result', function () {
+    return view('result');
+});
