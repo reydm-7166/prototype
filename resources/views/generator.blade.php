@@ -52,10 +52,42 @@ Generator
 
     <div class="d-inline-block ms-5 pt-0 vh-100 align-top" id="main">
         <div id="seventy">
+            <div class="h-75 border float-end mt-5 me-5" id="notepad">
 
+                    <div id="details" class="h-100 w-100 pt-4 m-auto">
+                        <li>½ teaspoon salt</li>
+                        <li>½ teaspoon ground black pepper</li>
+                        <li>1 pound ground beef</li>
+                        <li>12 pound bacon</li>
+                        <li>lettuce</li>
+                        
+                        <p id="directions" class="m-5 mb-2 border-bottom-0 mt-4 border border-end-0 border-start-0 pt-3 border-dark border-4">Directions</p>
+                            <li>Preheat an outdoor grill for high heat and lightly oil grate.</li>
+                            <li>
+                                Whisk together egg, salt, and pepper in a medium bowl. Add ground beef and bread crumbs and mix with your hands or a fork until well blended.
+                            </li>
+                            <li>Cover and cook 6 to 8 minutes per side, or to desired doneness.</li>
+        
+                    </div>
+
+            </div>
         </div>
         
         <div id="footer">
+            <div class="border rounded-circle d-inline-block" id="icon_img" aria-label="no image yet">
+                <img src="/images/na.png" alt="none yet">
+            </div>
+
+            <div id="user_details" class="d-inline-block align-top mt-4 me-5 ms-2">
+                <h2>Teresa</h2>
+                <h4>@@notteresa</h4>
+            </div>
+
+            <div id="user_comment" class="d-inline-block align-middle mt-5 ms-5 fw-light">
+                <p>I like this recipe so far! Best in Wais Food PH</p>
+            </div>
+
+
             <img src="/images/likedislike.png" height="150px" class="float-end d-inline-block" alt="">
         </div>
 

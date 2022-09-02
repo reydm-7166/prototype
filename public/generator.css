@@ -23,3 +23,30 @@ p {
 button {
     border-color:#835215;
 }
+
+#icon_img {
+    margin-top: 1.5rem;
+    width: 8%;
+    height: 10vh;
+}
+
+#user_comment {
+    font-weight: 100;
+    font-size: 28px;
+}
+#notepad, #dish {
+    border-radius: 1.5rem;
+    width: 40%;
+}
+#details #title {
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+#details li {
+    margin-left: 5rem;
+    text-align: left;
+    font-size: 22px;
+}
+#details {
+    background-color: white;
+}

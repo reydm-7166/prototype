@@ -10,7 +10,8 @@ Homepage
     <header class="m-5 mb-0 navbar navbar navbar-expand-lg">
         <form action="" class="w-50" method="get">
             <input type="text" class="form-control w-50 p-2 ps-4 align-middle me-3 d-inline" placeholder="Search">
-            <input class="btn btn-primary d-inline ps-4 pe-4 align-middle shadow" type="submit"></button>
+            {{-- <input class="btn btn-primary d-inline ps-4 pe-4 align-middle shadow" type="submit"><a href="{{ url('result') }}"></a> --}}
+            <button class="btn btn-primary d-inline ps-4 pe-4 align-middle shadow"><a href="{{ url('result') }}">Search</a></button>
         </form>
 
     <ul class="navbar-nav ms-5">

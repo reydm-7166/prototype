@@ -16,8 +16,8 @@ Results
             <a class="nav-link fs-3 ms-3 result-nav" href="{{ url('/') }}">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link fs-3 ms-4 result-nav" href="#">Generator</a>
-        </li>78
+            <a class="nav-link fs-3 ms-4 result-nav" href="{{ url('generator') }}">Generator</a>
+        </li>
         <li class="nav-item">
             <a class="nav-link fs-3 ms-4 result-nav" href="#">About Us</a>
         </li>
