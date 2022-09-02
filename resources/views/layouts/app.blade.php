@@ -9,68 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('style.css') }}">
+    <link rel="shortcut icon" href="{{ asset('images/logo.ico') }}">
+    @yield('css')
     <title>@yield('page_title')</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-        #back {
-            width: max-content;
-        }
-        * {
-            box-sizing: border-box;
-            border: black 1px dotted;
-        }
-        body {
-            overflow: hidden;
-            background-size: cover;
-            background-position: center;
-            width: 100%;
-            height: 100%;
-        }
-        #borger{
-            height: 85vh;
-        }
-        #icon {
-            height: 15vh;
-            width: 15vh;
-            margin-bottom: 20px;
-        }
-        #enjoy, #while, #planet {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 3.9vw;
-        }
-        #while {
-            color: #835215;
-        }
-        #details {
-            font-size: 26px;
-        }
-        button {
-            color: white;
-            border-color: #835215;
-        }
-        a, a:hover {
-            text-decoration: none;
-            color: white;
-        }
-        div label {
-            letter-spacing: 2px;
-        }
-        #img_div, #details {
-            display: inline-block;
-            width: 40%;
-            vertical-align: top;
-        }
-        #img_div {
-            border-top-right-radius: 2rem;
-            margin-right: -2rem;
-            border-bottom-right-radius: 2rem;
-            overflow: hidden;
-            background: url('/images/borger_icon.png');
-            background-position: center;
-            z-index: 1;
-        }
 
-    </style>
 </head>
 @yield('body_content')
 

@@ -18,10 +18,10 @@ Homepage
             <a class="nav-link fs-3 ms-3 text-white" href="#">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link fs-3 ms-4 text-white" href="#">Generator</a>
+            <a class="nav-link fs-3 ms-4 text-white" href="{{ url('generator') }}">Generator</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link fs-3 ms-4 text-white" href="#">About Us</a>
+            <a class="nav-link fs-3 ms-4 text-white" href="#">About</a>
         </li>
         <li class="nav-item">
             <a class="nav-link fs-3 ms-4 text-white" href="#">Contact</a>
@@ -41,7 +41,7 @@ Homepage
             <p class="text-end text-white" id="enjoy">ENJOY COOKING</p>
             <p class="text-end" id="while">WHILE YOU ARE</p>
             <p class="text-end text-white" id="planet">SAVING THE PLANET</p>
-            <p class="text-end text-white lh-base" id="details">Wais Food PH is a food recipe generator that aims to lower food waste by encouraging the usage of leftover ingredients. This will address our kitchen concerns by being resourceful without compromising anything and is actually helpful in saving our body, planet and our wallet!</p>
+            <p class="text-end text-white lh-base" id="details_index">Wais Food PH is a food recipe generator that aims to lower food waste by encouraging the usage of leftover ingredients. This will address our kitchen concerns by being resourceful without compromising anything and is actually helpful in saving our body, planet and our wallet!</p>
 
             <button class="border btn btn-primary-outline w-50 text-right fs-3 border-3 rounded-3 float-end mt-4" id="create"><a href="{{ url('register') }}">Create an account</a> </button>
         </section>

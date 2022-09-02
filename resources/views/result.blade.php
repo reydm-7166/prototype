@@ -13,32 +13,47 @@ Results
 
     <ul class="navbar-nav ms-5">
         <li class="nav-item">
-            <a class="nav-link fs-3 ms-3" href="#">Home</a>
+            <a class="nav-link fs-3 ms-3 result-nav" href="{{ url('/') }}">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link fs-3 ms-4" href="#">Generator</a>
+            <a class="nav-link fs-3 ms-4 result-nav" href="#">Generator</a>
+        </li>78
+        <li class="nav-item">
+            <a class="nav-link fs-3 ms-4 result-nav" href="#">About Us</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link fs-3 ms-4" href="#">About Us</a>
+            <a class="nav-link fs-3 ms-4 result-nav" href="#">Contact</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link fs-3 ms-4" href="#">Contact</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link fs-3 ms-4" href="#">Login/Register</a>
+            <a class="nav-link fs-3 ms-4 result-nav" href="#">Login/Register</a>
         </li>
     </ul>
     </header>
 
-    <main class="border border-primary w-100 h-75">
+    <main class="w-100" id="container">
         <div id="dish" class="w-75 m-auto h-100 p-3 text-center">
 
             <div id="img_div" class="h-100">
 
             </div>
-
-            <div id="details" class="h-100">
+            <div id="details" class="h-100 pe-4 ps-2">
+                <p class="fw-bold mt-2" id="title">Hamburger</p>
+                <li>½ teaspoon salt</li>
+                <li>½ teaspoon ground black pepper</li>
+                <li>1 pound ground beef</li>
+                <li>12 pound bacon</li>
+                <li>lettuce</li>
                 
+                <p id="directions" class="m-5 mb-2 border-bottom-0 mt-4 border border-end-0 border-start-0 pt-3 border-dark border-4">Directions</p>
+                    <li>Preheat an outdoor grill for high heat and lightly oil grate.</li>
+                    <li>
+                        Whisk together egg, salt, and pepper in a medium bowl. Add ground beef and bread crumbs and mix with your hands or a fork until well blended.
+                    </li>
+                    <li>Cover and cook 6 to 8 minutes per side, or to desired doneness.</li>
+
+                    <img src="/images/like.png" width="50px" height="50px" class="mt-2 ms-4 d-inline align-bottom" alt="">
+                    <button class="border btn btn-primary-outline w-50 rounded-pill align-top ms-4 fs-4 border-3 mt-4" id="comment"><a href="{{ url('register') }}">Comment</a> </button>
+                </div>
             </div>
         </div>
     </main>
